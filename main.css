@@ -1,0 +1,67 @@
+:root {
+  --green: #2ad518;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+*{
+  color:var(--fontColor);
+  font-family:Trebuchet MS;
+}
+
+
+body {
+  background:var(--bg);
+  margin: 5px;
+  padding: 0;
+}
+
+h1{
+  /*border: 1px solid red;*/
+  color: #abcce7;
+  background: #011728;
+  text-align: center;
+  font-family: Courier;
+}
+
+ul{
+  font-family: Trebuchet MS;
+}
+
+.li{
+  
+}
+
+.list{
+  list-style: none;
+}
+
+
+.light-theme{
+  --bg:var(--green);
+  --fontColor:var(--black);
+  --btnbg:var(--black);
+  --btnfontColor:var(--white);
+}
+  .dark-theme{
+    --bg:var(--black);
+    --fontColor:var(--green);
+    --btnbg:var(--white);
+    --btnfontColor:var(--black);
+    }
+
+.btn {
+  position: absolute;
+  border-radius: 15px 0 15px 0;
+  color:var(--btnbg);
+  background-color:var(--btnfontColor);
+}
+
+.btn:focus{ outline-style:none;
+}
+.btn {
+  color:var(--btnfontColor);
+  background-color:var(--btnbg);
+}
+
+
